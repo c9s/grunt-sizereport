@@ -1,12 +1,12 @@
 {
-  "name": "grunt-filesize",
+  "name": "grunt-plugin-sizereport",
   "version": "0.0.1",
-  "description": "filesize reporter task for Grunt.js",
+  "description": "file/directory size reporter task for Grunt.js",
   "main": "Gruntfile.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git://github.com/c9s/grunt-filesize",
+  "repository": "git://github.com/c9s/grunt-plugin-sizereport",
   "author": "Yo-An Lin",
   "license": "BSD",
   "keywords": [ "gruntplugin" ],

@@ -1,6 +1,6 @@
-Grunt-filesize
-==============
-Task for reporting compiled filesize/directory size.
+Grunt-SizeReport
+================
+Task for reporting compiled filesize/directory size and summary.
 
 ```coffee
 module.exports = (grunt) ->

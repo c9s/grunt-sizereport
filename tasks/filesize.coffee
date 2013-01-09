@@ -1,10 +1,11 @@
+'use strict'
 
 path      = require "path"
 filesize  = require "filesize"
 du        = require "du-sync"
 
 module.exports = (grunt) ->
-  grunt.registerTask "filesize", ->
+  grunt.registerTask "filesize", "Report filesize", ->
     ###
       config = {
         "Section":
@@ -24,3 +25,5 @@ module.exports = (grunt) ->
         total += sum
         grunt.log.writeln( "#{ title }: " + filesize(sum) )
       grunt.log.writeln("Total size: #{ filesize(total) }")
+    return
+  return

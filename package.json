@@ -2,15 +2,16 @@
   "name": "grunt-filesize",
   "version": "0.0.1",
   "description": "filesize reporter task for Grunt.js",
-  "main": "Gruntfile.js",
+  "main": "Gruntfile.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git://github.com/c9s/grunt-filesize",
   "author": "Yo-An Lin",
   "license": "BSD",
+  "keywords": [ "gruntplugin" ],
   "dependencies": {
-    "grunt": "~0.4.0rc4"
+    "grunt": "~0.4.0rc4",
     "filesize": "~1.7.2",
     "du-sync": "0.0.1"
   },

@@ -1,4 +1,6 @@
 
+'use strict'
+
 module.exports = (grunt) ->
   grunt.config.init({
     filesize:

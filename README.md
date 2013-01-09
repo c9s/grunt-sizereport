@@ -8,6 +8,14 @@ module.exports = (grunt) ->
     filesize:
       CoreSection:
         node_modules: [ "node_modules" ]
+        StyleSheets: [
+          "compiled/target.min.css"
+          "compiled/target.theme.min.css"
+        ]
+      ExtraSection:
+        fonts: [
+            "path/to/fonts"
+        ]
   })
   # load the project's default tasks
   grunt.loadNpmTasks "grunt-filesize"

@@ -1,7 +1,3 @@
-path = require "path"
-fs = require "fs"
-coffee = require "coffee-script"
-
 module.exports = (grunt) ->
   grunt.config.init({
     filesize:

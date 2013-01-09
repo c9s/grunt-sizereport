@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "",
+  "repository": "git://github.com/c9s/grunt-filesize",
+  "author": "Yo-An Lin",
   "license": "BSD",
   "dependencies": {
     "grunt": "~0.4.0rc2",

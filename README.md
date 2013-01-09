@@ -5,7 +5,7 @@ Task for reporting compiled filesize/directory size and summary.
 ```coffee
 module.exports = (grunt) ->
   grunt.config.init({
-    filesize:
+    sizereport:
       CoreSection:
         node_modules: [ "node_modules" ]
         StyleSheets: [

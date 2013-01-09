@@ -5,7 +5,7 @@ filesize  = require "filesize"
 du        = require "du-sync"
 
 module.exports = (grunt) ->
-  grunt.registerTask "filesize", "Report filesize", ->
+  grunt.registerTask "sizereport", "Report filesize", ->
     ###
       config = {
         "Section":
@@ -13,7 +13,7 @@ module.exports = (grunt) ->
           "Title2": [ files... ]
       }
     ###
-    filesizeSections = grunt.config.get("filesize")
+    filesizeSections = grunt.config.get("sizereport")
     return unless filesizeSections
 
     for sectionTitle, section of filesizeSections
@@ -26,4 +26,4 @@ module.exports = (grunt) ->
         grunt.log.writeln( "#{ title }: " + filesize(sum) )
       grunt.log.writeln("Total size: #{ filesize(total) }")
     return
-  return
+  grunt.registerTask "size", ["sizereport"]

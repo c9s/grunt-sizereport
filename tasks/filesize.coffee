@@ -1,3 +1,4 @@
+
 path      = require "path"
 filesize  = require "filesize"
 du        = require "du-sync"
@@ -12,6 +13,8 @@ module.exports = (grunt) ->
       }
     ###
     filesizeSections = grunt.config.get("filesize")
+    return unless filesizeSections
+
     for sectionTitle, section of filesizeSections
       grunt.log.header sectionTitle
       total = 0

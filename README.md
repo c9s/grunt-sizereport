@@ -1,7 +1,8 @@
-path = require "path"
-fs = require "fs"
-coffee = require "coffee-script"
+Grunt-filesize
+==============
+Task for reporting compiled filesize/directory size.
 
+```coffee
 module.exports = (grunt) ->
   grunt.config.init({
     filesize:
@@ -9,4 +10,6 @@ module.exports = (grunt) ->
         node_modules: [ "node_modules" ]
   })
   # load the project's default tasks
-  grunt.loadTasks "tasks"
+  grunt.loadNpmTasks "grunt-filesize"
+```
+

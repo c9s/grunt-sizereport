@@ -9,11 +9,14 @@
   "repository": "git://github.com/c9s/grunt-sizereport",
   "author": "Yo-An Lin",
   "license": "BSD",
-  "keywords": [ "gruntplugin" ],
+  "keywords": [
+    "gruntplugin"
+  ],
   "dependencies": {
     "grunt": "~0.4.0rc4",
     "filesize": "~1.7.2",
-    "du-sync": "0.0.1"
+    "du-sync": "0.0.1",
+    "sprintf": "~0.1.1"
   },
   "devDependencies": {
     "grunt": "~0.4.0rc4"
